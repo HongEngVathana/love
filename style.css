@@ -1,0 +1,25 @@
+#mybtn {
+  font-size: 4rem;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.enabled {
+  background-color: #ffafcc;
+  color: white;
+}
+
+.hover {
+  box-shadow: 0 0 10px #0f4bd6;
+  font-weight: bold;
+}
+
+.disabled {
+  background-color: #ff99c8;
+  color: white;
+}
